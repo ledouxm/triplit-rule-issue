@@ -1,0 +1,13 @@
+{
+  "name": "triplit-rule-issue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "frontend": "pnpm --filter frontend",
+    "backend": "pnpm --filter backend"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
