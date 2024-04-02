@@ -17,3 +17,11 @@ const query = db
 
 const result = await db.fetch(query);
 console.log(result);
+
+let current = mockToken;
+setInterval(async () => {
+  current = current ? null : mockToken;
+  db.updateToken(current);
+  const result = await db.fetch(query);
+  console.log(result);
+}, 2000);

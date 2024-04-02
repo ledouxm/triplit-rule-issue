@@ -11,11 +11,11 @@ importers:
   backend:
     dependencies:
       '@triplit/db':
-        specifier: ^0.3.26
-        version: 0.3.26
+        specifier: ^0.3.28
+        version: 0.3.28
       '@triplit/server':
-        specifier: ^0.3.29
-        version: 0.3.29
+        specifier: ^0.3.31
+        version: 0.3.31
       dotenv:
         specifier: ^16.4.5
         version: 16.4.5
@@ -33,11 +33,11 @@ importers:
   frontend:
     dependencies:
       '@triplit/client':
-        specifier: ^0.3.31
-        version: 0.3.31
+        specifier: ^0.3.33
+        version: 0.3.33
       '@triplit/db':
-        specifier: ^0.3.26
-        version: 0.3.26
+        specifier: ^0.3.28
+        version: 0.3.28
     devDependencies:
       typescript:
         specifier: ^5.2.2
@@ -371,23 +371,23 @@ packages:
     resolution: {integrity: sha512-ziK497ILSIYMxD/thl496idIb03IZPlha04itLQu1xAFQbumWZ+Dj4PMMCkDRpAYhvVSdmRlTjGu2B2MA5RplQ==}
     dev: false
 
-  /@triplit/client@0.3.31:
-    resolution: {integrity: sha512-U/uLw1iWDf9F6ANNBfwwXjFPoQxqqkmeI1wc1R3ZuQZgYaDDBOuxZYscdmlrdi4Io2rh5nrG56A+3I9gJSvQ/Q==}
+  /@triplit/client@0.3.33:
+    resolution: {integrity: sha512-7s62zkbN7icvBZr25yvJUhtLs3pB75McQP5TksGOA+K8gpb5nSpa47aZ1JZlB2PsEAi03Xh2749Jl7AfTJshrw==}
     engines: {node: '>=18.0.0'}
     dependencies:
       '@sinclair/typebox': 0.32.20
-      '@triplit/db': 0.3.26
+      '@triplit/db': 0.3.28
       rxjs: 7.8.1
       superjson: 2.2.1
     transitivePeerDependencies:
       - react
     dev: false
 
-  /@triplit/db@0.3.26:
-    resolution: {integrity: sha512-E23na/zNAPQ2+Cb81JTXFkLAcbn4AtHta0/hiu8BHhCLwKA/C6MdTrFYv/OiON7uQleMh7/UaNHgxs85NRq3pw==}
+  /@triplit/db@0.3.28:
+    resolution: {integrity: sha512-h9WlMHIWJxcgKQhnTT9dgpztfOE4NZFlYhm84Hke+8gkTU4ji/icYBBIfZxJT7GzZrzy6nBJPZ5WzOgz54KotQ==}
     dependencies:
       '@sinclair/typebox': 0.32.20
-      '@triplit/tuple-database': 2.2.12
+      '@triplit/tuple-database': 2.2.13
       idb: 7.1.1
       nanoid: 3.3.7
       pino: 8.19.0
@@ -396,20 +396,20 @@ packages:
       - react
     dev: false
 
-  /@triplit/server-core@0.3.29:
-    resolution: {integrity: sha512-LWS6o/fOatEXO8zUnavV8o5AuyQRSJDFY5at7PBb8barzPY++X2vozjHErpNqWzSNgmBei0XCda9Km0QUEP+Xw==}
+  /@triplit/server-core@0.3.31:
+    resolution: {integrity: sha512-jYiEHtr1g4sMz6yrClN4BdLBLa4p1TUN6PHgRGRCz5slnPCavH1tT4yuuHjsbrrL54CLF/hKUSUjX7m4sja/KA==}
     dependencies:
-      '@triplit/db': 0.3.26
+      '@triplit/db': 0.3.28
       jose: 4.15.5
     transitivePeerDependencies:
       - react
     dev: false
 
-  /@triplit/server@0.3.29:
-    resolution: {integrity: sha512-bc1c3rOi3DZ5rHEJhCmrJ/G+tomAXp/5uZ2I1CIYvOBDA4rO4OeL6U4VXsGiEH9BcrxjpnIPuw/gdgAXfu1iCA==}
+  /@triplit/server@0.3.31:
+    resolution: {integrity: sha512-rAXNZNMeVsQaTdnsrosjtdHMsbgobJGEbINkQMY7N2byCkN2ZA6LuacSO8R5AqVKZGVVF5DKtA1NzN11RaNNOg==}
     dependencies:
-      '@triplit/db': 0.3.26
-      '@triplit/server-core': 0.3.29
+      '@triplit/db': 0.3.28
+      '@triplit/server-core': 0.3.31
       better-sqlite3: 8.7.0
       consola: 3.2.3
       cors: 2.8.5
@@ -426,8 +426,8 @@ packages:
       - utf-8-validate
     dev: false
 
-  /@triplit/tuple-database@2.2.12:
-    resolution: {integrity: sha512-xYjQi056PETcEq3nZTofCUWx1YshKq8K+q5hKSlRjGPGX00xTfM9BTreTStjYCN8kxjx0Ib1zZZ68xgRr5e3kg==}
+  /@triplit/tuple-database@2.2.13:
+    resolution: {integrity: sha512-Dvd5j8r+s2kUiDDHflK0tyaZ/btVK8W/fEjUJSrsB8k8qxMyw9Jl923AbR6oYCAFxdMInRJQff4aG5TUQAvf8g==}
     peerDependencies:
       react: '*'
     peerDependenciesMeta:

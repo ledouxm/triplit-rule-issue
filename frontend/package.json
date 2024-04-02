@@ -10,8 +10,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@triplit/client": "^0.3.31",
-    "@triplit/db": "^0.3.26"
+    "@triplit/client": "^0.3.33",
+    "@triplit/db": "^0.3.28"
   },
   "devDependencies": {
     "typescript": "^5.2.2",
